@@ -11,10 +11,14 @@
             "id": "8ca0c80359ccf219",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from README"
             }
           },
           {
@@ -136,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CC19.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CC19"
+              "title": "Outline of README"
             }
           }
         ]
@@ -162,14 +168,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "50d6c5df4f515c74",
+  "active": "8ca0c80359ccf219",
   "lastOpenFiles": [
+    "CC19.md",
     "RSTUDIO_CC19 RESEARCH/CC19 RESEARCH_script.R",
     "Student-Employability-Datasets.xlsx",
     "Student-Employability-Datasets.csv",
     "RSTUDIO_CC19 RESEARCH/DF_studentEmployability.R",
     "RSTUDIO_CC19 RESEARCH/CC19 RESEARCH.Rproj",
-    "CC19.md",
     "README.md",
     "CC19 RESEARCH",
     "RSTUDIO_CC19 RESEARCH",
