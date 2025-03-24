@@ -7,9 +7,6 @@ library(rpart)
 library(rpart.plot)
 library(ggplot2)
 
-# one hot encoding
-# df$CLASS <- model.matrix(~CLASS-1, data=df)
-
 #Read df csv file located in github
 df <- read.csv("https://raw.githubusercontent.com/XebastianePitogo/cit19_project/refs/heads/main/Student-Employability-Datasets.csv")
 
@@ -72,8 +69,10 @@ print("MUTUAL INFO:")
 print(mutual_info)
 #Student performance should be removed as it has zero mutual score and chi score
 
-preprocessed_df <- df_filtered[, !colnames(df_filtered) %in% c("Student.Performance.Rating")]
+# one hot encoding
+# preprocessed_df$CLASS_factor <- model.matrix(~CLASS_factor-1, data=preprocessed_df)
 
-
+#also removed class_factor because it is unsupervised.
+preprocessed_df <- df_filtered[, !colnames(df_filtered) %in% c("Student.Performance.Rating", "CLASS_factor")]
 
 
