@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "ccc857fd2eb84edd",
+    "type": "split",
+    "children": [
+      {
+        "id": "334e9423731f5554",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ca0c80359ccf219",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "90583e493c39c40e",
+    "type": "split",
+    "children": [
+      {
+        "id": "800dda6043a41448",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50d6c5df4f515c74",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "27e9dbc87a72bbcb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "eebd3a1a92f32b3f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5307d063052d82ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "f16bd4cc7d7b4d05",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18ba87e0a20ce5d4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "7a3180b6ea66b9a3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "31300f849f01f4c1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bf8fa52f1fc8c9a3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CC19.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of CC19"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "50d6c5df4f515c74",
+  "lastOpenFiles": [
+    "Student-Employability-Datasets.xlsx",
+    "Student-Employability-Datasets.csv",
+    "RSTUDIO_CC19 RESEARCH/DF_studentEmployability.R",
+    "RSTUDIO_CC19 RESEARCH/CC19 RESEARCH.Rproj",
+    "CC19.md",
+    "README.md",
+    "CC19 RESEARCH",
+    "RSTUDIO_CC19 RESEARCH",
+    "CC19 RESEARCH/CC19 RESEARCH.Rproj"
+  ]
+}
