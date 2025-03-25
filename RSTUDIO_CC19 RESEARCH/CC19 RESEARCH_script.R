@@ -73,5 +73,7 @@ print(mutual_info)
 # preprocessed_df$CLASS_factor <- model.matrix(~CLASS_factor-1, data=preprocessed_df)
 
 #also removed class_factor because it is unsupervised.
-preprocessed_df <- df_filtered[, !colnames(df_filtered) %in% c("Student.Performance.Rating", "CLASS_factor")]
+preprocessed_df <- df_filtered[, !colnames(df_filtered) %in% c("Student.Performance.Rating")]
+
+preprocessed_df$CLASS_encoded <- model.matrix(~CLASS_factor-1, data=preprocessed_df)
 
